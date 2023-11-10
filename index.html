@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Renta de salones y oficinas en la ciudad de México">
+    <meta name="keywords" content="nubox, renta, salones, oficinas, renta de salones, renta de oficinas">
+    <meta name="Abraham" content="Abraham">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="assent/bootstrap/css/bootstrap.min.css">
+
+    <!--Favicon-->
+    <link rel="icon" href="favicon.ico">
+    
+    <!--Titulo-->
+    <title>Desarrollador Abraham</title>
+
+    <!--Css propio-->
+    <link rel="stylesheet" href="assent/css/style.css">
+
+    <!-- Importacion de iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+  <!--Proloader-->
+  
+
+  <!--Header-->
+  <section id="inicio">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">Abraham Vera Martinez</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light active" aria-current="page" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#about">Quien soy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#card-eventshall-office">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="">Contactos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6" style="width: 100%; height: 100vh;">
+          <p class="floating-text">Desarrollador Full Stack Jr<br>Abraham Vera Martinez</p>
+          <center><a href="https://wa.me/5547599600" target="_blank" class="contact-button">Contacto</a></center>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--About-->
+  <section id="about">
+    <div class="container my-3" style="height: 100vh;">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-xl-4">
+          <h2 class="title-about" style="margin-top: 50%;">¿QUIEN SOY?</h2>
+          <p class="paragraph-about">Soy un desarrollador versátil con experiencia en back-end 
+            (Java, C#, Python, Django, ASP, PHP, Laravel, Spring Boot), front-end (HTML, CSS, JS, 
+            Angular, Vue, React) y bases de datos (MySQL, SQLite, MongoDB, ProgressDB). Trabajo en 
+            sistemas operativos como Windows y Linux (Ubuntu y Kali).
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-xl-4">
+          <img src="assent/imagenes/foto.jpg" class="imagen-salon-intro" style="margin-top: 50%; margin-left: 50%;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="card-eventhall-offices">
+    <div class="container my-3" style="padding-top: 100px;">
+      <div class="row">
+        <div class="col-sm-12 col-lg-4 col-xl-4" style="width: 100%;">
+          <h2>Portafolio</h2>
+          <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> TODO</button>
+            <button class="btn" onclick="filterSelection('nature')"> EXPERIENCIA</button>
+            <button class="btn" onclick="filterSelection('cars')"> PROYECTOS</button>
+            <button class="btn" onclick="filterSelection('other')"> OTROS</button>
+          </div>
+
+          <!-- Portfolio Gallery Grid -->
+          <div class="row">
+            <div class="column nature">
+              <div class="content">
+                <img src="assent/imagenes/proyectos/experiencia/obiectus.jpg" alt="Mountains" style="width:100%">
+                <h4><center>Página Grupo Obiectus</center></h4>
+                <p>Página web para el grupo Obiectus expertos en fotografía y video. Las funciones de las páginas
+                  tiene como fin poder mostrar cada una de las empresas que tienen en su cargo.
+                </p>
+                <div class="accordion">
+                  <div class="accordion-item">
+                      <div class="accordion-title"><p>Requerimientos funcionales</p></div>
+                      <div class="accordion-content">
+                          <!-- Agrega la clase "fa-ul" a la lista desordenada para utilizar íconos de lista -->
+                          <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Adaptabilidad</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Slider tipo acordeon</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Colores llamativos</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="accordion-item">
+                      <div class="accordion-title">Tecnologías</div>
+                      <div class="accordion-content">
+                        <ul class="fa-ul">
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>HTML, CSS, JS</li>
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>BOOTSTRAP</li>
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>LARAVEL</li>
+                        </ul>
+                      </div>
+                  </div>
+                  <center><a href="https://www.obiectusmexico.com/" class="btn-Cotizacion">ir página</a></center>
+                </div>                  
+              </div>
+            </div>
+
+            <div class="column nature">
+              <div class="content">
+                <img src="assent/imagenes/proyectos/experiencia/universidad.jpg" alt="Mountains" style="width:100%">
+                <h4><center>Página universidad</center></h4>
+                <p>La página de la universidad obiectus tiene como función poder mostrar la oferta educativa
+                  así como mostrar los precios para poder cursar una licenciatura.
+                </p>
+                <div class="accordion">
+                  <div class="accordion-item">
+                      <div class="accordion-title">Requerimientos</div>
+                      <div class="accordion-content">
+                          <!-- Agrega la clase "fa-ul" a la lista desordenada para utilizar íconos de lista -->
+                          <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Adaptabilidad</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Slider tipo acordeon</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Colores llamativos</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="accordion-item">
+                      <div class="accordion-title">Tecnologías</div>
+                      <div class="accordion-content">
+                        <ul class="fa-ul">
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>HTML, CSS, JS</li>
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>BOOTSTRAP, REACT</li>
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>LARAVEL</li>
+                        </ul>
+                      </div>
+                  </div>
+                  <center><a href="https://universidad.obiectusmexico.com/" class="btn-Cotizacion">ir página</a></center>
+                </div>                  
+              </div>
+            </div>
+
+            <div class="column nature">
+              <div class="content">
+                <img src="assent/imagenes/proyectos/experiencia/academia-jpg.jpg" alt="Mountains" style="width:100%">
+                <h4><center>Página academia</center></h4>
+                <p>Grupo obiectus ofrece la oportunidad de poder cursas algún diplomado o curso dentro de la 
+                  academia obiectus.
+                </p>
+                <div class="accordion">
+                  <div class="accordion-item">
+                      <div class="accordion-title">Requerimientos</div>
+                      <div class="accordion-content">
+                          <!-- Agrega la clase "fa-ul" a la lista desordenada para utilizar íconos de lista -->
+                          <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Adaptabilidad</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Slider tipo acordeon</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Colores llamativos</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="accordion-item">
+                      <div class="accordion-title">Tecnologías</div>
+                      <div class="accordion-content">
+                        <ul class="fa-ul">
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>HTML, CSS, JS</li>
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>BOOTSTRAP, REACT</li>
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>LARAVEL</li>
+                        </ul>
+                      </div>
+                  </div>
+                  <center><a href="https://academia.obiectusmexico.com/" class="btn-Cotizacion">ir página</a></center>
+                </div>                  
+              </div>
+            </div>
+
+            <div class="column cars">
+              <div class="content">
+                <img src="assent/imagenes/proyectos/proyectos/Nubox.jpg" alt="Mountains" style="width:100%">
+                <h4><center>Concurso de programación</center></h4>
+                <p>Página web para competencia de programación a nivel de planteles utc, donde se obtuvo un
+                  tercer lugar en dicho evento.
+                </p>
+                <div class="accordion">
+                  <div class="accordion-item">
+                      <div class="accordion-title">Requerimientos</div>
+                      <div class="accordion-content">
+                          <!-- Agrega la clase "fa-ul" a la lista desordenada para utilizar íconos de lista -->
+                          <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Mandar reportes por medio de correo</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Ajustable a cualquier dispositivo</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Disponibilidad de fecha</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="accordion-item">
+                      <div class="accordion-title">Tecnologías</div>
+                      <div class="accordion-content">
+                        <ul class="fa-ul">
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>HTML, CSS, JS</li>
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>BOOTSTRAP, REACT</li>
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>MYSQL, LARAVEL</li>
+                        </ul>
+                      </div>
+                  </div>
+                  <center><a href="proyectos/index.html" class="btn-Cotizacion">ir página</a></center>
+                </div>                  
+              </div>
+            </div>
+
+            <div class="column cars">
+              <div class="content">
+                <img src="assent/imagenes/proyectos/proyectos/caseta.jpg" alt="Mountains" style="width:100%">
+                <h4><center>Proyecto de peaje de caseta</center></h4>
+                <p>Poder crear un sistema de peaje de caseta con la funcionalidad de poder distinguir a cada automovil
+                  o caminion dependiendo su número de ejes.
+                </p>
+                <div class="accordion">
+                  <div class="accordion-item">
+                      <div class="accordion-title">Requerimientos</div>
+                      <div class="accordion-content">
+                          <!-- Agrega la clase "fa-ul" a la lista desordenada para utilizar íconos de lista -->
+                          <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Cobro por número de ejes</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Historial de cobro</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>login y registro</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="accordion-item">
+                      <div class="accordion-title">Tecnologías</div>
+                      <div class="accordion-content">
+                        <ul class="fa-ul">
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>C#, Asp</li>
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>MySQL</li>
+                        </ul>
+                      </div>
+                  </div>
+                </div>                  
+              </div>
+            </div>
+
+            <div class="column cars">
+              <div class="content">
+                <img src="assent/imagenes/proyectos/proyectos/punto_venta.jpg" alt="Mountains" style="width:100%">
+                <h4><center>Punto de venta</center></h4>
+                <p>Crear un sistema de punto de venta para poder gestionar las ventas de un negocios pequeños
+                  obtenido el proyecto en varias versiones (La Imagen es la version 1), el actual estado esta en fase 3.
+                </p>
+                <div class="accordion">
+                  <div class="accordion-item">
+                      <div class="accordion-title">Requerimientos</div>
+                      <div class="accordion-content">
+                          <!-- Agrega la clase "fa-ul" a la lista desordenada para utilizar íconos de lista -->
+                          <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Reporte semanales, mensuales</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Ingreso de insumos</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Procesamiento de venta</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="accordion-item">
+                      <div class="accordion-title">Dirección</div>
+                      <div class="accordion-content">
+                        <ul class="fa-ul">
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>html, css, js</li>
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>bootstrap</li>
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>fase 1 mysql, laravel; fase 3 ProgressDB y laravel</li>
+                        </ul>
+                      </div>
+                  </div>
+                </div>                  
+              </div>
+            </div>
+
+            <div class="column other">
+              <div class="content">
+                <img src="assent/imagenes/proyectos/otro/sumo.jpg" alt="Mountains" style="width:100%">
+                <h4><center>Concurso de robotica</center></h4>
+                <p>Concurso de robotica en la categoria minisumo, se obtuvo un tercer lugar en dicha copetencia.
+                </p>
+                <div class="accordion">
+                  <div class="accordion-item">
+                      <div class="accordion-title">Requerimientos</div>
+                      <div class="accordion-content">
+                          <!-- Agrega la clase "fa-ul" a la lista desordenada para utilizar íconos de lista -->
+                          <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>No pesar más 500gr</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Identificador de enemigo</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Identificador de lineas blancas</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="accordion-item">
+                      <div class="accordion-title">Tecnologías</div>
+                      <div class="accordion-content">
+                        <ul class="fa-ul">
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>C++</li>
+                        </ul>
+                      </div>
+                  </div>
+                </div>                  
+              </div>
+            </div>
+
+            <div class="column other">
+              <div class="content">
+                <img src="assent/imagenes/proyectos/otro/guante.jpg" alt="Mountains" style="width:100%">
+                <h4><center>Guante de rehabilitación</center></h4>
+                <p>Como proyecto de tesis se diseño un guante terapeutico para personas con atrofia muscular
+                  en la mano.
+                </p>
+                <div class="accordion">
+                  <div class="accordion-item">
+                      <div class="accordion-title">Requerimientos</div>
+                      <div class="accordion-content">
+                          <!-- Agrega la clase "fa-ul" a la lista desordenada para utilizar íconos de lista -->
+                          <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Ajustable para el paciente</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Registro de movimientos</li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Impreso 3d</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="accordion-item">
+                      <div class="accordion-title">Tecnologías</div>
+                      <div class="accordion-content">
+                        <ul class="fa-ul">
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>Guante C++, Impresion 3d</li>
+                          <li><span class="fa-li"><i class="fas fa-check"></i></span>App Kotlin, java, SQLite</li>
+                        </ul>
+                      </div>
+                  </div>
+                </div>
+                <center>
+                  <a href="assent/documentos/DISEÑO DE UN PROTOTIPO DE GUANTE TERAPÉUTICO PERSONALIZADO PARA TRATAR LA ATROFIA MUSCULAR  (1).pdf" class="btn-Cotizacion" download>Descargar</a>
+                </center>                                
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted bg-dark">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"  style="color: #fff;">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span style="color: #fff;">Redes Sociales:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="https://www.facebook.com/iabrahamvm/" class="me-4 text-reset">
+        <i class="fab fa-facebook-f" style="color: #fff;"></i>
+      </a>
+      <a href="https://twitter.com/Abraham78630015" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="https://www.instagram.com/iabrahamvm/" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/abraham-vera-713789181/" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/AbrahamVM2001" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class=""  style="color: #fff;">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>CV
+          </h6>
+          <p>
+            <a href="assent/documentos/ABRAHAM VERA MARTINEZ - CV.pdf" class="btn-Cotizacion" download>CV - ABRAHAM VERA</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Back
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            back
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Spring boot</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Asp</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">C#</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Django</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contactos</h6>
+          <p><i class="fas fa-home me-3"></i> Cuautitlán, Santa Elena 54850</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            abrahamveram2001@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +52 5547599600</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+    </section>
+    <!-- Section: Links  -->
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright: Tec. Abraham Vera
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <!--JS-->
+  <script src="assent/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assent/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assent/bootstrap/js/popper.min.js"></script>
+  <script src="assent/js/proloader.js"></script>
+  <script src="assent/js/filterable-image.js"></script>
+  <script src="assent/js/accordions.js"></script>
+  <script src="assent/js/carrusel.js"></script>
+</body>
+</html>
